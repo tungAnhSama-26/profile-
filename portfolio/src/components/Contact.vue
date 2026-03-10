@@ -16,11 +16,11 @@
           :href="c.link"
           target="_blank"
           class="flex items-center justify-between 
-                 border border-gray-700 
-                 rounded-xl px-6 py-4 
-                 hover:border-teal-400 
-                 hover:bg-[#111827] 
-                 transition duration-300 group"
+         rounded-2xl px-6 py-5
+         bg-[#1e2229]
+         shadow-[6px_6px_12px_#14171c,-6px_-6px_12px_#282d36]
+         active:shadow-[inset_4px_4px_8px_#14171c,inset_-4px_-4px_8px_#282d36]
+         transition-all duration-300 group"
         >
 
           <div class="flex items-center gap-4">
@@ -59,7 +59,7 @@ import { ArrowUpRight } from "lucide-vue-next";
 const contacts = [
   {
     name: "Facebook",
-    link: "https://www.facebook.com/profile.php?id=61574689854088",
+    link: "https://www.facebook.com/profile.php?id=61588337362695",
     icon: '<i class="fa-brands fa-facebook"></i>',
   },
   {

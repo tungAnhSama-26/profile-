@@ -1,8 +1,10 @@
 <template>
-  <Hero />
-  <Skills />
-  <Experience />
-  <Contact />
+  <div>
+    <Hero />
+    <Skills />
+    <Experience />
+    <Contact />
+  </div>
 </template>
 
 <script setup>
